@@ -2,7 +2,7 @@ pipeline {
    agent any {
 	    environment {
 		    NAME = "shubham"
-			ROLE ="devops" 
+			PROF ="devops" 
 			AGE= "23"
 			}
 		}
@@ -12,7 +12,7 @@ pipeline {
                steps {
              echo "hello world"
 	     echo "$NAME"
-		echo "$ROLE
+		echo "$PROF
                  echo "$AGE"
 				}
 			}
