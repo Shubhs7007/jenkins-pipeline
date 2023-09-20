@@ -1,5 +1,5 @@
 pipeline {
-   agent {
+   agent 
      laabel {
 	    environment {
 		    NAME= shubham
@@ -17,5 +17,4 @@ pipeline {
                 sh "ls"
 				}
 			}
-		}
-	}	
+		}	
