@@ -12,7 +12,7 @@ pipeline {
                steps {
              echo "hello world"
 	     echo "$NAME"
-		echo "$PROF
+		echo "$PROF"
                  echo "$AGE"
 				}
 			}
